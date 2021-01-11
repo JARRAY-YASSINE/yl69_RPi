@@ -7,8 +7,8 @@
 
 # 1-Connect:
  
-BCM GPIO 18 to D0
-5V	    to Vcc
+BCM GPIO 18 to D0 / 
+5V	    to Vcc/ 
 0v	    to GND
 
 # 2-Install wiringPi library on Raspbian:
@@ -19,6 +19,6 @@ http://wiringpi.com/download-and-install/
 
 # 4-Compile
 
-gcc -Wall -o soilhum soilhum.c -lwiringPi
+gcc -Wall -o soilhum soilhum.c -lwiringPi 
 sudo ./soilhum
 	
