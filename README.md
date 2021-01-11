@@ -1,4 +1,4 @@
-## C code for soil moisture sensor YL-69 with raspberryPi"
+## C code for soil moisture sensor YL-69 with raspberryPi
 
 ### 1-Connect:
  
