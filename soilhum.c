@@ -3,7 +3,7 @@
 
 #define YL69Pin 1
 
-int Soil_Humidity( void ){
+void Soil_Humidity( void ){
 
  while (1)
   {
@@ -16,7 +16,6 @@ int Soil_Humidity( void ){
     delay (1000) ;
    
   }
-return 0;
 }
 int main (void)
 {
